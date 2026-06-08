@@ -1,0 +1,45 @@
+- name: Qinbin Li
+  initials: QL
+  affiliation: Huazhong University of Science and Technology
+  role: Main Contact
+  email: qinbin@hust.edu.cn
+  homepage:
+  photo:
+  location: Wuhan, China
+  bio: "Qinbin Li is a Professor at Huazhong University of Science and Technology. His work includes distributed and federated machine learning systems."
+- name: Junyi Hou
+  initials: JH
+  affiliation: National University of Singapore
+  role: Organizer
+  email: junyi.h@comp.nus.edu.sg
+  homepage:
+  photo:
+  location: Singapore
+  bio: "Junyi Hou is a Ph.D. student in the Systems and Networking Research Lab at the National University of Singapore. His research focuses on infrastructure and systems for large language models, including LLM agents and runtime environments."
+- name: Bingsheng He
+  initials: BH
+  affiliation: National University of Singapore
+  role: Organizer
+  email: hebs@comp.nus.edu.sg
+  homepage:
+  photo:
+  location: Singapore
+  bio: "Bingsheng He is a Professor and Vice-Dean (Research) at the School of Computing, National University of Singapore. His research interests include cloud computing, database systems, high-performance computing, and systems for data-intensive computing."
+- name: Bo Li
+  initials: BL
+  affiliation: University of Illinois at Urbana-Champaign
+  role: Organizer
+  email: lbo@illinois.edu
+  homepage:
+  photo:
+  location: Champaign, Illinois, USA
+  bio: "Bo Li is an associate professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign. Her research focuses on trustworthy machine learning, security, privacy, and robust AI systems."
+- name: Dawn Song
+  initials: DS
+  affiliation: UC Berkeley
+  role: Organizer
+  email: dawnsong@gmail.com
+  homepage:
+  photo:
+  location: Berkeley, California, USA
+  bio: "Dawn Song is a Professor in Computer Science at the University of California, Berkeley. Her research spans AI and deep learning, security and privacy, trustworthy machine learning, and decentralization technology."

@@ -1,0 +1,24 @@
+title: AIRS 2026
+long_title: "Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment"
+tagline: "A half-day workshop on scalable, trustworthy, and deployable agentic AI systems at ICPP 2026."
+description: "Proposed ICPP 2026 workshop website for AIRS 2026."
+conference: "ICPP 2026"
+location: "Singapore"
+conference_dates: "September 28-October 1, 2026"
+co_location: "Co-located with ICPP 2026, Singapore, September 28-October 1, 2026"
+workshop_date: "To be announced after confirmation with the ICPP 2026 workshop chairs."
+workshop_date_short: "Date to be announced"
+status_note: "AIRS 2026 is a proposed workshop. Final workshop status, date, submission instructions, publication policy, and invited speakers will be announced after confirmation."
+baseurl: ""
+url: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - assets/img/README.md
+  - .jekyll-server.log

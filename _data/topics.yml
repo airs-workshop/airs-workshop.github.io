@@ -1,0 +1,13 @@
+- Scalable infrastructure for agentic AI systems
+- Parallel and distributed execution of agents
+- Runtime systems for multi-agent orchestration
+- Scheduling and resource management for agent workflows
+- Memory, state, and KV-cache management for agentic workloads
+- LLM serving systems for long-running and tool-using agents
+- Tool invocation, sandboxing, and secure execution environments
+- Cloud, edge, and hybrid deployment of agentic AI systems
+- Reliability, fault tolerance, monitoring, and observability for agents
+- Performance, cost, and energy efficiency of deployed agent systems
+- Privacy, security, and trustworthiness in real-world agent deployment
+- Benchmarks and evaluation methodologies for agentic AI systems
+- Real-world deployment case studies in science, industry, finance, healthcare, and public services
