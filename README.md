@@ -204,20 +204,15 @@ Do not add the already-passed workshop proposal deadline.
 
 Controls the systems-oriented topics list.
 
-The topics emphasize:
+The topics mirror the 7-topic CFP list in the current workshop proposal:
 
-- distributed runtime systems and orchestration
-- LLM serving and accelerator-aware execution
-- scheduling and resource management
-- memory, state, and KV-cache management
-- communication protocols and coordination mechanisms
+- infrastructure, orchestration, and distributed runtime systems
+- LLM serving, inference backends, memory/state management, and accelerator-aware execution
+- scheduling, placement, resource management, and workflow execution
+- communication, coordination, tool invocation, and secure execution environments
 - planning, decision-making, adaptation, and reliability-aware runtime decisions
-- tool sandboxing
-- cloud/edge and heterogeneous deployment
-- workload characterization and dynamic task-graph abstractions
-- performance-cost-quality evaluation
-- reliability, observability, security, privacy, and trustworthy deployment
-- real-world deployment case studies
+- benchmarking, workload characterization, and performance-cost-quality evaluation
+- trustworthy, private, and secure deployment case studies
 
 ### `_data/organizers.yml`
 

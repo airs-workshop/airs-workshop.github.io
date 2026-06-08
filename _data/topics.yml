@@ -1,13 +1,7 @@
 - Infrastructure, orchestration, and distributed runtime systems for agentic AI
-- LLM serving, inference backends, and accelerator-aware execution for agent workloads
-- Memory, state, context, and KV-cache management for long-running agents
+- LLM serving, inference backends, memory/state management, and accelerator-aware execution for agent workloads
 - Scheduling, placement, resource management, and workflow execution for multi-agent systems
-- Communication protocols and coordination mechanisms for multi-agent systems
-- Tool invocation, sandboxing, and secure execution environments
-- Algorithms for planning, decision-making, adaptation, and reliability-aware runtime decisions
-- Cloud, edge, and heterogeneous deployment of agentic AI systems
-- Workload characterization and dynamic task-graph abstractions for agent workflows
-- Benchmarking and performance-cost-quality evaluation for deployed agents
-- Reliability, fault tolerance, monitoring, debugging, and observability for agents
-- Privacy, security, and trustworthy deployment of agentic AI systems
-- Deployment case studies in science, industry, healthcare, finance, robotics, software engineering, and public services
+- Communication protocols, coordination mechanisms, tool invocation, and secure execution environments
+- Algorithms for planning, decision-making, adaptation, and reliability-aware runtime decisions in agentic systems
+- Benchmarking, workload characterization, and performance-cost-quality evaluation for deployed agents
+- Trustworthy, private, and secure deployment case studies in science, industry, healthcare, finance, robotics, software engineering, and public services

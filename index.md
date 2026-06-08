@@ -125,7 +125,7 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
       <p>AIRS focuses on systems, infrastructure, and deployment for agentic AI.</p>
     </div>
     <ul class="topic-list">
-      {% for topic in site.data.topics limit:8 %}
+      {% for topic in site.data.topics %}
       <li>{{ topic }}</li>
       {% endfor %}
     </ul>
