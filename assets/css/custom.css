@@ -288,6 +288,18 @@ a:hover {
   padding-top: 36px;
 }
 
+.home-page .section {
+  padding: 24px 0;
+}
+
+.home-page .section.tight {
+  padding: 18px 0;
+}
+
+.home-page .section-header {
+  margin-bottom: 18px;
+}
+
 .section-header {
   max-width: 760px;
   margin-bottom: 26px;
@@ -686,6 +698,14 @@ a:hover {
 
   .section {
     padding: 42px 0;
+  }
+
+  .home-page .section {
+    padding: 28px 0;
+  }
+
+  .home-page .section.tight {
+    padding: 18px 0;
   }
 
   .table-row {

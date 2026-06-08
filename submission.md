@@ -41,6 +41,7 @@ description: "Submission information for AIRS 2026."
 
   <h2>Review Policy</h2>
   <p>Submissions will be peer reviewed for relevance, technical quality, novelty, clarity, soundness, evaluation quality where applicable, and their ability to contribute to discussion at the workshop.</p>
+  <p>Each submission will be reviewed by at least three reviewers whenever possible. Reviewer assignments will account for conflicts of interest and topic fit, with attention to balancing systems expertise and agentic AI expertise.</p>
 
   <h2>Anonymity Policy</h2>
   <p>The anonymity policy will follow the final ICPP 2026 workshop submission instructions.</p>

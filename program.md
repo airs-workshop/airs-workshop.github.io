@@ -29,7 +29,7 @@ description: "Tentative AIRS 2026 half-day program."
     </article>
     <article class="card format-item">
       <h3>Invited Talk 2</h3>
-      <p>35 min. Deployment, reliability, security, or performance of real-world agentic AI systems.</p>
+      <p>35 min. Reliability, security, and deployment of real-world agentic AI systems.</p>
     </article>
     <article class="card format-item">
       <h3>Peer-reviewed Paper Presentations and Lightning Talks</h3>

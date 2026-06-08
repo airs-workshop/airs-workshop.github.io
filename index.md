@@ -2,6 +2,7 @@
 layout: default
 title: Home
 description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastructure, algorithms, and deployment."
+body_class: home-page
 ---
 
 <section class="hero">
@@ -81,6 +82,18 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
 
 <section class="section">
   <div class="container grid two">
+    <div class="section-header">
+      <h2>Why AIRS?</h2>
+      <p>Existing workshops on AI agents often emphasize reasoning, planning, collaboration, benchmarks, safety, and agent behavior.</p>
+    </div>
+    <div class="overview-body">
+      <p>AIRS focuses on the systems-to-deployment layer of agentic AI: distributed runtime support, LLM serving, scheduling and coordination, state and memory management, secure tool execution, and real-world deployment experience.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid two">
     <div class="card">
       <h3>Important Dates</h3>
       <p class="card-note">Dates will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
@@ -122,7 +135,7 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
   <div class="container">
     <div class="section-header">
       <h2>Topics</h2>
-      <p>AIRS focuses on systems, infrastructure, and deployment for agentic AI.</p>
+      <p>AIRS focuses on the systems-to-deployment stack for agentic AI, spanning infrastructure, algorithms, and real-world deployment.</p>
     </div>
     <ul class="topic-list">
       {% for topic in site.data.topics %}
