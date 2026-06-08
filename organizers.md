@@ -8,7 +8,7 @@ description: "Organizing committee for AIRS 2026."
   <div class="container page-hero-inner">
     <p class="eyebrow">Organizing Committee</p>
     <h1>AIRS 2026 Organizers</h1>
-    <p>The organizers bring expertise in distributed systems, ML infrastructure, cloud and high-performance computing, LLM agents, trustworthy AI, security, and privacy.</p>
+    <p>The organizers bring expertise in distributed systems, ML infrastructure, distributed AI/ML systems, LLM serving, agentic AI systems, data privacy, security, and trustworthy deployment.</p>
   </div>
 </section>
 
@@ -38,6 +38,6 @@ description: "Organizing committee for AIRS 2026."
   {% unless forloop.last %}<br>{% endunless %}
   {% endfor %}
 
-  <h2>Main Contact</h2>
-  <p>Qinbin Li, Huazhong University of Science and Technology. Email: <a href="mailto:qinbin@hust.edu.cn">qinbin@hust.edu.cn</a>.</p>
+  <h2>Contact</h2>
+  <p>For workshop inquiries, please contact the organizing team at <a href="mailto:qinbin@hust.edu.cn">qinbin@hust.edu.cn</a>.</p>
 </section>

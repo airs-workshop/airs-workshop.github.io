@@ -33,19 +33,19 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
     <aside class="hero-facts" aria-label="Workshop focus">
       <div class="focus-panel">
         <div class="focus-card">
-          <span>Workload</span>
-          <strong>Dynamic and long-running</strong>
-          <p>Agent workflows with changing control flow, tools, memory, and external services.</p>
+          <span>Pillar 1</span>
+          <strong>Infrastructure and systems</strong>
+          <p>Runtime support, orchestration, state management, secure tools, and cloud/edge deployment.</p>
         </div>
         <div class="focus-card">
-          <span>Systems Layer</span>
-          <strong>Runtime orchestration</strong>
-          <p>Scheduling, placement, state management, sandboxing, serving, and observability.</p>
+          <span>Pillar 2</span>
+          <strong>Algorithms for agents</strong>
+          <p>Planning, scheduling, coordination, adaptation, memory management, and reliability-aware decisions.</p>
         </div>
         <div class="focus-card">
-          <span>Deployment</span>
-          <strong>Reliable and constrained</strong>
-          <p>Real resource, latency, cost, reliability, privacy, and security requirements.</p>
+          <span>Pillar 3</span>
+          <strong>Real-world deployment</strong>
+          <p>Evaluation and experience under performance, cost, privacy, safety, and reliability constraints.</p>
         </div>
       </div>
     </aside>
@@ -64,16 +64,16 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
   <div class="container grid two">
     <div class="section-header">
       <h2>Overview</h2>
-      <p>Agentic AI is moving from demos and benchmarks into deployed systems that coordinate tools, models, data, and people under real operational constraints.</p>
+      <p>Agentic AI is moving from model-level reasoning benchmarks and single-turn LLM applications into deployed systems that coordinate tools, models, data, services, and people under real operational constraints.</p>
       <p class="lead-claim">AIRS treats agentic AI as a first-class distributed systems workload: dynamic, stateful, tool-using, long-running, and deployed under real resource, reliability, and security constraints.</p>
     </div>
     <div class="overview-body">
-      <p>That transition introduces systems challenges: scalable runtime infrastructure, parallel and distributed execution, orchestration, scheduling, memory and state management, LLM serving, secure tool execution, observability, reliability, and cost-performance tradeoffs.</p>
-      <p>AIRS aims to bring together researchers and practitioners from parallel and distributed computing, ML systems, LLM agents, cloud systems, security, and trustworthy AI to define the systems foundations for reliable real-world agentic AI.</p>
+      <p>Agent workflows resemble dynamic distributed task graphs with unpredictable control flow, heterogeneous resource demands, long-lived state, model calls, tool calls, retrieval, code execution, and external side effects.</p>
+      <p>AIRS aims to bring together researchers and practitioners from parallel and distributed computing, ML systems, LLM serving, multi-agent systems, security, and trustworthy AI to define the infrastructure, algorithms, and deployment practices needed for reliable real-world agentic AI.</p>
       <ul class="pill-list overview-pills">
-        <li>Infrastructure</li>
-        <li>Runtime algorithms</li>
-        <li>Deployment evidence</li>
+        <li>Infrastructure and systems</li>
+        <li>Algorithms</li>
+        <li>Deployment</li>
       </ul>
     </div>
   </div>
@@ -103,7 +103,7 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
         </li>
         <li>
           <span>Paper session</span>
-          <strong>Peer-reviewed regular, short, work-in-progress, and vision papers.</strong>
+          <strong>Peer-reviewed paper presentations, short talks, lightning talks, posters, or demos.</strong>
         </li>
         <li>
           <span>Panel</span>
@@ -136,7 +136,7 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
   <div class="container">
     <div class="section-header">
       <h2>Organizers</h2>
-      <p>The organizing committee brings expertise across distributed systems, ML infrastructure, cloud and high-performance computing, LLM agents, trustworthy AI, security, and privacy.</p>
+      <p>The organizing committee brings expertise across distributed systems, ML infrastructure, LLM serving, agentic AI systems, data privacy, security, and trustworthy deployment.</p>
     </div>
     <div class="organizer-grid">
       {% for person in site.data.organizers %}

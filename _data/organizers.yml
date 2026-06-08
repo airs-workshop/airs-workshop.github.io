@@ -1,45 +1,45 @@
 - name: Qinbin Li
   initials: QL
   affiliation: Huazhong University of Science and Technology
-  role: Main Contact
+  role: Organizer
   email: qinbin@hust.edu.cn
   homepage:
   photo:
   location: Wuhan, China
-  bio: "Qinbin Li is a Professor at Huazhong University of Science and Technology. His work includes distributed and federated machine learning systems."
-- name: Junyi Hou
-  initials: JH
+  bio: "Qinbin Li is a Professor at Huazhong University of Science and Technology. His research focuses on distributed and federated machine learning systems."
+- name: Jialin Li
+  initials: JL
   affiliation: National University of Singapore
   role: Organizer
-  email: junyi.h@comp.nus.edu.sg
+  email: lijl@comp.nus.edu.sg
   homepage:
   photo:
   location: Singapore
-  bio: "Junyi Hou is a Ph.D. student in the Systems and Networking Research Lab at the National University of Singapore. His research focuses on infrastructure and systems for large language models, including LLM agents and runtime environments."
-- name: Bingsheng He
-  initials: BH
-  affiliation: National University of Singapore
+  bio: "Jialin Li is an Assistant Professor in the School of Computing at the National University of Singapore. His research focuses on co-designing distributed systems and networks, OS and compiler support for heterogeneous hardware, and AI/ML systems."
+- name: Wei Dong
+  initials: WD
+  affiliation: Nanyang Technological University
   role: Organizer
-  email: hebs@comp.nus.edu.sg
+  email: wei_dong@ntu.edu.sg
   homepage:
   photo:
   location: Singapore
-  bio: "Bingsheng He is a Professor and Vice-Dean (Research) at the School of Computing, National University of Singapore. His research interests include cloud computing, database systems, high-performance computing, and systems for data-intensive computing."
-- name: Bo Li
-  initials: BL
-  affiliation: University of Illinois at Urbana-Champaign
+  bio: "Wei Dong is an Assistant Professor at the College of Computing and Data Science, Nanyang Technological University. His research interests include data privacy and security, privacy-preserving AI, and LLM and AI security."
+- name: Chaoyi Ruan
+  initials: CR
+  affiliation: National University of Singapore
   role: Organizer
-  email: lbo@illinois.edu
+  email: chaoyi@nus.edu.sg
   homepage:
   photo:
-  location: Champaign, Illinois, USA
-  bio: "Bo Li is an associate professor in the Department of Computer Science at the University of Illinois at Urbana-Champaign. Her research focuses on trustworthy machine learning, security, privacy, and robust AI systems."
-- name: Dawn Song
-  initials: DS
-  affiliation: UC Berkeley
+  location: Singapore
+  bio: "Chaoyi Ruan is a postdoctoral researcher at the National University of Singapore, advised by Prof. Jialin Li. His research interests include machine learning systems, agentic systems, and data infrastructure for AI, spanning LLM infrastructure, distributed LLM serving and training, memory disaggregation, and database/storage systems."
+- name: Jing Gu
+  initials: JG
+  affiliation: Huazhong University of Science and Technology
   role: Organizer
-  email: dawnsong@gmail.com
+  email: gujing@hust.edu.cn
   homepage:
   photo:
-  location: Berkeley, California, USA
-  bio: "Dawn Song is a Professor in Computer Science at the University of California, Berkeley. Her research spans AI and deep learning, security and privacy, trustworthy machine learning, and decentralization technology."
+  location: Wuhan, China
+  bio: "Jing Gu is a Ph.D. student at Huazhong University of Science and Technology, advised by Prof. Qinbin Li. His research interests include systems and infrastructure for LLM serving, multi-agent collaboration, and distributed deployment of agentic AI systems."

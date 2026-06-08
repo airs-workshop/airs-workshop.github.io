@@ -70,11 +70,12 @@ Main content:
 - Formal status notice saying AIRS 2026 is a proposed workshop.
 - Overview of why agentic AI deployment creates systems challenges.
 - Core claim that AIRS treats agentic AI as a first-class distributed systems workload.
+- Dynamic distributed task-graph framing for agent workflows.
 - Important dates preview from `_data/dates.yml`.
-- Workshop format preview: invited talks, peer-reviewed paper presentations, and panel discussion.
+- Workshop format preview: invited talks, peer-reviewed paper presentations, lightning talks/posters/demos, and panel discussion.
 - Topics preview from `_data/topics.yml`.
 - Organizer preview from `_data/organizers.yml`.
-- Right-side focus cards for workload, systems layer, and deployment constraints.
+- Right-side focus cards for the proposal's three pillars: Infrastructure and Systems, Algorithms, and Deployment.
 
 Review points:
 
@@ -89,7 +90,7 @@ Purpose: tentative CFP page.
 Main content:
 
 - CFP status notice.
-- Motivation for agentic AI as a systems/infrastructure/deployment topic.
+- Motivation for agentic AI as a systems/infrastructure/deployment topic, including dynamic distributed task-graph workloads.
 - Scope statement emphasizing ICPP relevance.
 - Full topics list from `_data/topics.yml`.
 - Tentative submission types:
@@ -99,6 +100,7 @@ Main content:
   - Vision papers
 - Important dates from `_data/dates.yml`.
 - Review process description.
+- Conflict-of-interest and topic-fit wording for reviewer assignment.
 - Conservative publication note:
   `Accepted papers will be presented at the workshop. Publication will follow the official ICPP 2026 workshop proceedings policy and final camera-ready instructions.`
 
@@ -144,7 +146,7 @@ Main content:
   - Opening Remarks - 10 min
   - Invited Talk 1 - 35 min
   - Invited Talk 2 - 35 min
-  - Peer-reviewed Paper Presentations - 90 min
+  - Peer-reviewed Paper Presentations and Lightning Talks - 90 min
   - Coffee Break - 15 min
   - Panel Discussion - 45 min
   - Closing Remarks - 10 min
@@ -166,15 +168,15 @@ Main content:
 - Organizer intro paragraph.
 - One organizer profile card per entry from `_data/organizers.yml`.
 - Initials avatar fallback for each organizer. Photos are optional and currently not populated.
-- Main contact listed as Qinbin Li.
+- Contact email for workshop inquiries.
 
 Organizer list:
 
 - Qinbin Li - Huazhong University of Science and Technology
-- Junyi Hou - National University of Singapore
-- Bingsheng He - National University of Singapore
-- Bo Li - University of Illinois at Urbana-Champaign
-- Dawn Song - UC Berkeley
+- Jialin Li - National University of Singapore
+- Wei Dong - Nanyang Technological University
+- Chaoyi Ruan - National University of Singapore
+- Jing Gu - Huazhong University of Science and Technology
 
 Review points:
 
@@ -204,14 +206,17 @@ Controls the systems-oriented topics list.
 
 The topics emphasize:
 
-- parallel and distributed execution
-- runtime orchestration
+- distributed runtime systems and orchestration
+- LLM serving and accelerator-aware execution
 - scheduling and resource management
 - memory, state, and KV-cache management
-- LLM serving for agents
+- communication protocols and coordination mechanisms
+- planning, decision-making, adaptation, and reliability-aware runtime decisions
 - tool sandboxing
-- cloud/edge deployment
-- reliability, observability, cost, energy, security, and privacy
+- cloud/edge and heterogeneous deployment
+- workload characterization and dynamic task-graph abstractions
+- performance-cost-quality evaluation
+- reliability, observability, security, privacy, and trustworthy deployment
 - real-world deployment case studies
 
 ### `_data/organizers.yml`
