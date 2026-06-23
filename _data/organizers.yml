@@ -6,7 +6,8 @@
   homepage:
   photo:
   location: Wuhan, China
-  bio: "Qinbin Li is a Professor at Huazhong University of Science and Technology. His research focuses on distributed and federated machine learning systems."
+  bio: >-
+    Qinbin Li is a Professor at Huazhong University of Science and Technology. His research focuses on distributed and federated machine learning systems. He is a recipient of Stanford University's list of the World's Top 2% Scientists, the Google Ph.D. Fellowship, TPDS Best Paper Award, VLDB Best Research Paper Nomination, SIGMOD Best Artifact Award, and PREMIA Best Student Paper Gold Award.
 - name: Jialin Li
   initials: JL
   affiliation: National University of Singapore
@@ -15,7 +16,8 @@
   homepage:
   photo:
   location: Singapore
-  bio: "Jialin Li is an Assistant Professor in the School of Computing at the National University of Singapore. His research focuses on co-designing distributed systems and networks, OS and compiler support for heterogeneous hardware, and AI/ML systems."
+  bio: >-
+    Jialin Li is an Assistant Professor in the School of Computing at the National University of Singapore. His research focuses on co-designing distributed systems and networks, OS and compiler support for heterogeneous hardware, and AI/ML systems. His work has received Best Paper Awards at systems venues including NSDI and OSDI.
 - name: Wei Dong
   initials: WD
   affiliation: Nanyang Technological University
@@ -24,7 +26,8 @@
   homepage:
   photo:
   location: Singapore
-  bio: "Wei Dong is an Assistant Professor at the College of Computing and Data Science, Nanyang Technological University. His research interests include data privacy and security, privacy-preserving AI, and LLM and AI security."
+  bio: >-
+    Wei Dong is an Assistant Professor at the College of Computing and Data Science, Nanyang Technological University. His research interests include data privacy and security, privacy-preserving AI, and LLM and AI security. His expertise complements the workshop's focus on privacy-preserving deployment of agentic systems.
 - name: Chaoyi Ruan
   initials: CR
   affiliation: National University of Singapore
@@ -33,7 +36,8 @@
   homepage:
   photo:
   location: Singapore
-  bio: "Chaoyi Ruan is a postdoctoral researcher at the National University of Singapore, advised by Prof. Jialin Li. His research interests include machine learning systems, agentic systems, and data infrastructure for AI, spanning LLM infrastructure, distributed LLM serving and training, memory disaggregation, and database/storage systems."
+  bio: >-
+    Chaoyi Ruan is a postdoctoral researcher at the National University of Singapore, advised by Prof. Jialin Li. His research interests include machine learning systems, agentic systems, and data infrastructure for AI. His work spans LLM infrastructure, distributed LLM serving and training, memory disaggregation, and database/storage systems, with publications at systems, databases, and AI venues including NSDI, VLDB, ASPLOS, FAST, and ICLR.
 - name: Jing Gu
   initials: JG
   affiliation: Huazhong University of Science and Technology
@@ -42,4 +46,5 @@
   homepage:
   photo:
   location: Wuhan, China
-  bio: "Jing Gu is a Ph.D. student at Huazhong University of Science and Technology, advised by Prof. Qinbin Li. His research interests include systems and infrastructure for LLM serving, multi-agent collaboration, and distributed deployment of agentic AI systems."
+  bio: >-
+    Jing Gu is a Ph.D. student at Huazhong University of Science and Technology, advised by Prof. Qinbin Li. His research interests include systems and infrastructure for LLM serving, multi-agent collaboration, and distributed deployment of agentic AI systems.

@@ -5,167 +5,81 @@ description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastruct
 body_class: home-page
 ---
 
-<section class="hero">
-  <div class="container hero-inner">
-    <div class="hero-copy">
-      <p class="eyebrow">Proposed half-day workshop for ICPP 2026</p>
-      <h1>AIRS 2026</h1>
-      <h2>{{ site.long_title }}</h2>
-      <p>{{ site.tagline }}</p>
-      <div class="hero-meta-grid" aria-label="Workshop facts">
-        <div class="hero-fact">
-          <span>Venue</span>
-          <strong>{{ site.conference }}</strong>
-        </div>
-        <div class="hero-fact">
-          <span>Location</span>
-          <strong>{{ site.location }}</strong>
-        </div>
-        <div class="hero-fact">
-          <span>Date</span>
-          <strong>{{ site.workshop_date_short }}</strong>
-        </div>
-        <div class="hero-fact">
-          <span>Format</span>
-          <strong>Half-day workshop</strong>
-        </div>
-      </div>
-    </div>
-    <aside class="hero-facts" aria-label="Workshop focus">
-      <div class="focus-panel">
-        <div class="focus-card">
-          <span>Pillar 1</span>
-          <strong>Infrastructure and systems</strong>
-          <p>Runtime support, orchestration, state management, secure tools, and cloud/edge deployment.</p>
-        </div>
-        <div class="focus-card">
-          <span>Pillar 2</span>
-          <strong>Algorithms for agents</strong>
-          <p>Planning, scheduling, coordination, adaptation, memory management, and reliability-aware decisions.</p>
-        </div>
-        <div class="focus-card">
-          <span>Pillar 3</span>
-          <strong>Real-world deployment</strong>
-          <p>Evaluation and experience under performance, cost, privacy, safety, and reliability constraints.</p>
-        </div>
-      </div>
-    </aside>
+<section class="home-hero" aria-label="AIRS 2026 workshop overview">
+  <img src="{{ '/imgs/fenpi.png' | relative_url }}" alt="Singapore skyline and Marina Bay Sands for ICPP 2026">
+  <div class="home-hero-overlay">
+    <p class="hero-kicker">Proposed half-day workshop for {{ site.conference }}</p>
+    <h1>AIRS 2026</h1>
+    <p class="hero-subtitle">{{ site.long_title }}</p>
+    <p class="hero-meta">{{ site.hero_meta }}</p>
+    <p class="action-row hero-actions">
+      <a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a>
+      <a class="text-button secondary" href="{{ '/program/' | relative_url }}">Program</a>
+    </p>
   </div>
 </section>
 
-<section class="section tight">
-  <div class="container">
-    <div class="notice">
-      <strong>Status:</strong> AIRS 2026 is a proposed workshop. Final workshop status, date, submission instructions, publication policy, and invited speakers will be announced after confirmation with the ICPP 2026 workshop chairs.
-    </div>
-  </div>
+<div class="notice">
+  <strong>Status:</strong> AIRS 2026 is a proposed half-day workshop for ICPP 2026. Submission instructions, paper deadlines, and invited speakers will be announced after confirmation with the ICPP 2026 workshop chairs.
+</div>
+
+<section class="content-section">
+  <h2>About the Workshop</h2>
+  <p>Agentic AI is moving from model-level reasoning benchmarks and single-turn LLM applications into deployed systems that coordinate tools, models, data, services, and people under real operational constraints. These systems increasingly combine LLM inference, retrieval, code execution, external APIs, databases, tool sandboxes, multi-agent coordination, and human-in-the-loop workflows.</p>
+
+  <p>AIRS treats agentic AI as a first-class distributed systems workload: dynamic, stateful, tool-using, long-running, and deployed under real resource, reliability, and security constraints. The workshop aims to bring together researchers and practitioners from parallel and distributed computing, ML systems, LLM serving, multi-agent systems, security, and trustworthy AI.</p>
 </section>
 
-<section class="section">
-  <div class="container grid two">
-    <div class="section-header">
-      <h2>Overview</h2>
-      <p>Agentic AI is moving from model-level reasoning benchmarks and single-turn LLM applications into deployed systems that coordinate tools, models, data, services, and people under real operational constraints.</p>
-      <p class="lead-claim">AIRS treats agentic AI as a first-class distributed systems workload: dynamic, stateful, tool-using, long-running, and deployed under real resource, reliability, and security constraints.</p>
-    </div>
-    <div class="overview-body">
-      <p>Agent workflows resemble dynamic distributed task graphs with unpredictable control flow, heterogeneous resource demands, long-lived state, model calls, tool calls, retrieval, code execution, and external side effects.</p>
-      <p>AIRS aims to bring together researchers and practitioners from parallel and distributed computing, ML systems, LLM serving, multi-agent systems, security, and trustworthy AI to define the infrastructure, algorithms, and deployment practices needed for reliable real-world agentic AI.</p>
-      <ul class="pill-list overview-pills">
-        <li>Infrastructure and systems</li>
-        <li>Algorithms</li>
-        <li>Deployment</li>
-      </ul>
-    </div>
-  </div>
+<section class="content-section">
+  <h2>Workshop Focus</h2>
+  <p>The workshop is organized around three connected dimensions:</p>
+  <ul>
+    <li><strong>Infrastructure and systems:</strong> scalable runtime support, orchestration, state management, secure tool execution, and cloud/edge deployment.</li>
+    <li><strong>Algorithms for agents:</strong> planning, scheduling, coordination, adaptation, memory management, and reliability-aware runtime decisions.</li>
+    <li><strong>Real-world deployment:</strong> evaluation and operational experience under performance, cost, privacy, safety, and reliability constraints.</li>
+  </ul>
 </section>
 
-<section class="section">
-  <div class="container grid two">
-    <div class="section-header">
-      <h2>Why AIRS?</h2>
-      <p>Existing workshops on AI agents often emphasize reasoning, planning, collaboration, benchmarks, safety, and agent behavior.</p>
-    </div>
-    <div class="overview-body">
-      <p>AIRS focuses on the systems-to-deployment layer of agentic AI: distributed runtime support, LLM serving, scheduling and coordination, state and memory management, secure tool execution, and real-world deployment experience.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container grid two">
-    <div class="card">
-      <h3>Important Dates</h3>
-      <p class="card-note">Dates will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
-      <ul class="date-list">
-        {% for item in site.data.dates %}
-        <li>
-          <span>{{ item.name }}</span>
-          <strong>{{ item.date }}</strong>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="card format-card">
-      <h3>Workshop Format</h3>
-      <p class="card-note">The workshop is planned as a compact half-day program with research talks and discussion.</p>
-      <ul class="format-preview">
-        <li>
-          <span>Invited talks</span>
-          <strong>Two talks on systems infrastructure and deployment.</strong>
-        </li>
-        <li>
-          <span>Paper session</span>
-          <strong>Peer-reviewed paper presentations, short talks, lightning talks, posters, or demos.</strong>
-        </li>
-        <li>
-          <span>Panel</span>
-          <strong>Discussion on the systems roadmap for deployable agentic AI.</strong>
-        </li>
-        <li>
-          <span>Audience</span>
-          <strong>Researchers and practitioners across systems, ML infrastructure, and trustworthy AI.</strong>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Topics</h2>
-      <p>AIRS focuses on the systems-to-deployment stack for agentic AI, spanning infrastructure, algorithms, and real-world deployment.</p>
-    </div>
-    <ul class="topic-list">
-      {% for topic in site.data.topics %}
-      <li>{{ topic }}</li>
+<section class="content-section">
+  <h2>Important Dates</h2>
+  <p>Submission and camera-ready deadlines will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
+  <table>
+    <tbody>
+      {% for item in site.data.dates %}
+      <tr>
+        <th scope="row">{{ item.name }}</th>
+        <td>{{ item.date }}</td>
+      </tr>
       {% endfor %}
-    </ul>
-  </div>
+    </tbody>
+  </table>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Organizers</h2>
-      <p>The organizing committee brings expertise across distributed systems, ML infrastructure, LLM serving, agentic AI systems, data privacy, security, and trustworthy deployment.</p>
-    </div>
-    <div class="organizer-grid">
-      {% for person in site.data.organizers %}
-      <article class="card organizer-card">
-        <div class="avatar small">
-          {% if person.photo %}
-          <img src="{{ person.photo }}" alt="{{ person.name }}">
-          {% else %}
-          <span>{{ person.initials }}</span>
-          {% endif %}
-        </div>
-        <div class="role">{{ person.role }}</div>
-        <h3>{{ person.name }}</h3>
-        <p>{{ person.affiliation }}</p>
-      </article>
-      {% endfor %}
-    </div>
-  </div>
+<section class="content-section">
+  <h2>Topics of Interest</h2>
+  <p>AIRS welcomes work on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings. Topics include, but are not limited to:</p>
+  <ul>
+    {% for topic in site.data.topics %}
+    <li>{{ topic }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="content-section">
+  <h2>Workshop Format</h2>
+  <p>AIRS is planned as a compact half-day program with invited talks, peer-reviewed paper presentations, short talks or lightning talks when appropriate, and a panel discussion on the systems roadmap for deployable agentic AI.</p>
+  <ul>
+    <li>Invited talks on agent systems infrastructure, reliability, security, and deployment.</li>
+    <li>Peer-reviewed presentations for accepted research, short, work-in-progress, and vision papers.</li>
+    <li>A moderated panel discussion on open systems problems and evaluation gaps.</li>
+  </ul>
+</section>
+
+<section class="content-section">
+  <h2>Organizers</h2>
+  <ul class="compact-list">
+    {% for person in site.data.organizers %}
+    <li><strong>{{ person.name }}</strong>, {{ person.affiliation }}</li>
+    {% endfor %}
+  </ul>
 </section>

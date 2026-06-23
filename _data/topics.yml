@@ -2,6 +2,6 @@
 - LLM serving, inference backends, memory/state management, and accelerator-aware execution for agent workloads
 - Scheduling, placement, resource management, and workflow execution for multi-agent systems
 - Communication protocols, coordination mechanisms, tool invocation, and secure execution environments
-- Algorithms for planning, decision-making, adaptation, and reliability-aware runtime decisions in agentic systems
+- Systems-oriented algorithms for planning, scheduling, adaptation, and reliability-aware runtime decisions in agentic systems
 - Benchmarking, workload characterization, and performance-cost-quality evaluation for deployed agents
-- Trustworthy, private, and secure deployment case studies in science, industry, healthcare, finance, robotics, software engineering, and public services
+- Trustworthy, private, and secure deployment of agentic AI systems in real-world environments

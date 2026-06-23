@@ -1,8 +1,11 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      <span class="brand-mark">AIRS</span>
-      <span class="brand-text">2026</span>
+      <img class="brand-logo" src="{{ '/imgs/logo.png' | relative_url }}" alt="ICPP logo">
+      <span class="brand-name">
+        <span class="brand-mark">AIRS</span>
+        <span class="brand-text">2026</span>
+      </span>
     </a>
     {% include nav.html %}
   </div>

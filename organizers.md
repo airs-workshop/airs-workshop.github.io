@@ -4,40 +4,30 @@ title: Organizers
 description: "Organizing committee for AIRS 2026."
 ---
 
-<section class="page-hero">
-  <div class="container page-hero-inner">
-    <p class="eyebrow">Organizing Committee</p>
+<section class="subpage-hero" aria-label="Organizing Committee">
+  <img src="{{ '/imgs/fenpi.png' | relative_url }}" alt="Singapore skyline for AIRS 2026">
+  <div class="subpage-hero-inner">
+    <p class="kicker">Organizing Committee</p>
     <h1>AIRS 2026 Organizers</h1>
-    <p>The organizers bring expertise in distributed systems, ML infrastructure, distributed AI/ML systems, LLM serving, agentic AI systems, data privacy, security, and trustworthy deployment.</p>
+    <p class="subtitle">Distributed systems, ML infrastructure, privacy, security, and agentic AI systems.</p>
   </div>
 </section>
 
-<section class="content">
-  {% for person in site.data.organizers %}
-  <article class="card organizer-profile">
-    <div class="avatar">
-      {% if person.photo %}
-      <img src="{{ person.photo }}" alt="{{ person.name }}">
-      {% else %}
-      <span>{{ person.initials }}</span>
-      {% endif %}
-    </div>
-    <div>
-      <div class="role">{{ person.role }}</div>
-      <h2>{{ person.name }}</h2>
-      <p><strong>{{ person.affiliation }}</strong>{% if person.location %}<br>{{ person.location }}{% endif %}</p>
-      {% if person.email %}
-      <p>Email: <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
-      {% endif %}
-      {% if person.homepage %}
-      <p>Homepage: <a href="{{ person.homepage }}">{{ person.homepage }}</a></p>
-      {% endif %}
+<section class="content-section">
+  <ul class="profile-list">
+    {% for person in site.data.organizers %}
+    <li>
+      <h2>{{ person.name }} <span class="profile-separator">&mdash;</span> {{ person.affiliation }}</h2>
       <p>{{ person.bio }}</p>
-    </div>
-  </article>
-  {% unless forloop.last %}<br>{% endunless %}
-  {% endfor %}
+      {% if person.email %}
+      <p class="profile-email"><strong>Email:</strong> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
+<section class="content-section">
   <h2>Contact</h2>
   <p>For workshop inquiries, please contact the organizing team at <a href="mailto:qinbin@hust.edu.cn">qinbin@hust.edu.cn</a>.</p>
 </section>
