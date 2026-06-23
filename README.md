@@ -101,7 +101,7 @@ Main content:
 - Tentative submission categories:
   - Regular research papers
   - Short, work-in-progress, and vision papers
-- Submission instructions, including ACM Primary Article Template guidance and tentative LaTeX `acmart` review format.
+- Submission instructions, including ACM Primary Article Template guidance for submission/review formatting only and tentative LaTeX `acmart` review format.
 - Important dates from `_data/dates.yml`.
 - Review process description.
 - Conflict-of-interest and topic-fit wording for reviewer assignment.

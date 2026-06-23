@@ -41,7 +41,7 @@ description: "Call for papers for AIRS 2026."
 
   <h2>Submission Instructions</h2>
   <p>The submission site will be announced after confirmation with the ICPP 2026 workshop chairs. All submissions should be made electronically in PDF format and should follow the final ICPP 2026 workshop formatting instructions.</p>
-  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> unless the final ICPP 2026 workshop instructions specify otherwise. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
+  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> for submission and review formatting unless the final ICPP 2026 workshop instructions specify otherwise. The use of the ACM template does not imply archival publication. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
 
   <h2>Review Process</h2>
   <p>Each submission will be peer reviewed by experts in parallel and distributed computing, ML systems, cloud systems, LLM serving, agentic AI infrastructure, and trustworthy AI. Evaluation criteria will include relevance to ICPP, technical quality, novelty, clarity, soundness, quality of evaluation where applicable, and potential to stimulate discussion at the workshop.</p>
@@ -50,7 +50,7 @@ description: "Call for papers for AIRS 2026."
   <h2>Publication Policy</h2>
   <p>AIRS 2026 is a non-archival workshop. Accepted submissions will not be included in formal proceedings.</p>
   <p>Accepted submissions are intended for presentation, discussion, and community feedback at the workshop. Authors may submit extended or revised versions of their work to archival conferences and journals.</p>
-  <p>Final submission, presentation, and publication instructions will be confirmed with the ICPP 2026 workshop chairs.</p>
+  <p>Final submission and presentation instructions will be confirmed with the ICPP 2026 workshop chairs.</p>
 
   <h2>Registration and Presentation Policy</h2>
   <p>At least one presenter for each accepted submission must register for ICPP 2026 and present the work at the workshop. All workshop presenters are required to register for the conference; there will be no workshop-only registration rate.</p>

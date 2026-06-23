@@ -80,7 +80,7 @@ body_class: home-page
   <p>AIRS is planned as a compact half-day program with invited talks, peer-reviewed paper presentations, short talks or lightning talks when appropriate, and a panel discussion on the systems roadmap for deployable agentic AI.</p>
   <ul>
     <li>Invited talks on agent systems infrastructure, reliability, security, and deployment.</li>
-    <li>Peer-reviewed presentations for accepted research, short, work-in-progress, and vision papers.</li>
+    <li>Peer-reviewed presentations for accepted regular, short, work-in-progress, and vision submissions.</li>
     <li>A moderated panel discussion on open systems problems and evaluation gaps.</li>
   </ul>
 </section>
