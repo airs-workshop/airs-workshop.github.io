@@ -8,7 +8,6 @@ body_class: home-page
 <section class="home-hero" aria-label="AIRS 2026 workshop overview">
   <img src="{{ '/imgs/fenpi.png' | relative_url }}" alt="Singapore skyline and Marina Bay Sands for ICPP 2026">
   <div class="home-hero-overlay">
-    <p class="hero-kicker">Proposed half-day workshop for {{ site.conference }}</p>
     <h1>AIRS 2026</h1>
     <p class="hero-subtitle">{{ site.long_title }}</p>
     <p class="hero-meta">{{ site.hero_meta }}</p>
@@ -20,7 +19,7 @@ body_class: home-page
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> AIRS 2026 is a proposed half-day workshop for ICPP 2026. Submission instructions, paper deadlines, and invited speakers will be announced after confirmation with the ICPP 2026 workshop chairs.
+  <strong>Status:</strong> AIRS 2026 is a proposed half-day workshop for ICPP 2026. AIRS is planned as a non-archival workshop: accepted submissions will be presented for discussion and feedback and will not be published in formal proceedings. Submission instructions, paper deadlines, and invited speakers will be announced after confirmation with the ICPP 2026 workshop chairs.
 </div>
 
 <section class="content-section">
@@ -28,6 +27,17 @@ body_class: home-page
   <p>Agentic AI is moving from model-level reasoning benchmarks and single-turn LLM applications into deployed systems that coordinate tools, models, data, services, and people under real operational constraints. These systems increasingly combine LLM inference, retrieval, code execution, external APIs, databases, tool sandboxes, multi-agent coordination, and human-in-the-loop workflows.</p>
 
   <p>AIRS treats agentic AI as a first-class distributed systems workload: dynamic, stateful, tool-using, long-running, and deployed under real resource, reliability, and security constraints. The workshop aims to bring together researchers and practitioners from parallel and distributed computing, ML systems, LLM serving, multi-agent systems, security, and trustworthy AI.</p>
+</section>
+
+<section class="content-section">
+  <h2>Non-Archival Workshop</h2>
+  <p>AIRS 2026 is planned as a non-archival workshop. Accepted submissions will be presented at the workshop for discussion and feedback, but will not be published in formal proceedings. This format is intended to encourage early-stage work, work-in-progress results, vision papers, and open discussion.</p>
+</section>
+
+<section class="content-section">
+  <h2>Call for Papers</h2>
+  <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings.</p>
+  <p><a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a></p>
 </section>
 
 <section class="content-section">
@@ -42,7 +52,7 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Important Dates</h2>
-  <p>Submission and camera-ready deadlines will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
+  <p>Submission, notification, and final-version deadlines will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
   <table>
     <tbody>
       {% for item in site.data.dates %}

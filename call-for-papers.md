@@ -18,7 +18,7 @@ description: "Call for papers for AIRS 2026."
   </div>
 
   <h2>AIRS 2026 Call for Papers</h2>
-  <p>AIRS 2026, the workshop on <strong>Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment</strong>, invites research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI. The workshop is proposed as a half-day event held in conjunction with <a href="https://icpp2026.github.io/">ICPP 2026</a> in Singapore.</p>
+  <p>AIRS 2026, the workshop on <strong>Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment</strong>, invites research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI. AIRS 2026 is planned as a non-archival workshop, and accepted submissions will be presented for discussion and feedback rather than published in formal proceedings. The workshop is proposed as a half-day event held in conjunction with <a href="https://icpp2026.github.io/">ICPP 2026</a> in Singapore.</p>
 
   <p>Agentic AI systems increasingly execute long-running workflows, invoke external tools, coordinate across services, and operate under latency, cost, reliability, privacy, and safety constraints. These workloads create new research questions for parallel and distributed computing: how should agents be scheduled, isolated, monitored, scaled, evaluated, and deployed when their behavior depends on model inference, retrieval, memory, tool execution, dynamic control flow, and external side effects?</p>
 
@@ -40,16 +40,20 @@ description: "Call for papers for AIRS 2026."
   <p>Final page limits and formatting requirements will follow the official ICPP 2026 workshop guidelines.</p>
 
   <h2>Submission Instructions</h2>
-  <p>The submission site will be announced after confirmation with the ICPP 2026 workshop chairs. All submissions should be made electronically in PDF format and should follow the ACM proceedings format required by ICPP workshops.</p>
-  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a>. Unless the final ICPP 2026 workshop instructions specify otherwise, LaTeX submissions should use the ACM <code>acmart</code> class in <code>sigconf</code> review format, such as <code>\documentclass[sigconf,review]{acmart}</code>. The <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
+  <p>The submission site will be announced after confirmation with the ICPP 2026 workshop chairs. All submissions should be made electronically in PDF format and should follow the final ICPP 2026 workshop formatting instructions.</p>
+  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> unless the final ICPP 2026 workshop instructions specify otherwise. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
 
   <h2>Review Process</h2>
   <p>Each submission will be peer reviewed by experts in parallel and distributed computing, ML systems, cloud systems, LLM serving, agentic AI infrastructure, and trustworthy AI. Evaluation criteria will include relevance to ICPP, technical quality, novelty, clarity, soundness, quality of evaluation where applicable, and potential to stimulate discussion at the workshop.</p>
   <p>Reviewer assignments will account for conflicts of interest and topic fit, with attention to balancing systems expertise and agentic AI expertise. The anonymity policy will follow the final ICPP 2026 workshop submission instructions.</p>
 
   <h2>Publication Policy</h2>
-  <p>AIRS 2026 will follow the official ICPP 2026 workshop publication policy. Accepted papers are expected to appear as workshop papers in the ACM ICPP 2026 Workshops Proceedings, subject to the final requirements of ICPP 2026 and ACM.</p>
-  <p>At least one author of each accepted paper is expected to register for and present the work at the workshop.</p>
+  <p>AIRS 2026 is a non-archival workshop. Accepted submissions will not be included in formal proceedings.</p>
+  <p>Accepted submissions are intended for presentation, discussion, and community feedback at the workshop. Authors may submit extended or revised versions of their work to archival conferences and journals.</p>
+  <p>Final submission, presentation, and publication instructions will be confirmed with the ICPP 2026 workshop chairs.</p>
+
+  <h2>Registration and Presentation Policy</h2>
+  <p>At least one presenter for each accepted submission must register for ICPP 2026 and present the work at the workshop. All workshop presenters are required to register for the conference; there will be no workshop-only registration rate.</p>
 
   <h2>Important Dates</h2>
   <table>

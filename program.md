@@ -9,12 +9,12 @@ description: "Tentative AIRS 2026 half-day program."
   <div class="subpage-hero-inner">
     <p class="kicker">Program</p>
     <h1>Tentative Half-Day Schedule</h1>
-    <p class="subtitle">The final program will be announced after workshop status, speaker participation, and accepted papers are confirmed.</p>
+    <p class="subtitle">The final program will be announced after workshop status, speaker participation, and accepted submissions are confirmed.</p>
   </div>
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> This schedule is tentative; speaker participation and accepted papers have not been finalized. The final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
+  <strong>Status:</strong> This schedule is tentative; speaker participation and accepted submissions have not been finalized. The final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
 </div>
 
 <section class="content-section">
@@ -73,6 +73,6 @@ description: "Tentative AIRS 2026 half-day program."
 </section>
 
 <section class="content-section">
-  <h2>Accepted Papers</h2>
-  <p>Accepted papers will be listed after the review process is complete.</p>
+  <h2>Accepted Submissions</h2>
+  <p>Accepted submissions will be listed after the review process is complete.</p>
 </section>

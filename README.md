@@ -71,9 +71,11 @@ Main content:
 - Full-width hero section with `AIRS 2026`, full workshop title, half-day ICPP 2026 positioning, and small navigation buttons.
 - Location shown as Singapore.
 - Workshop date shown as September 28, 2026.
-- Formal status notice saying AIRS 2026 is a proposed workshop.
+- Formal status notice saying AIRS 2026 is a proposed non-archival workshop.
 - Overview of why agentic AI deployment creates systems challenges.
 - Core claim that AIRS treats agentic AI as a first-class distributed systems workload.
+- Non-archival workshop section.
+- Short Call for Papers section linking to the full CFP page.
 - Workshop focus section covering infrastructure and systems, algorithms for agents, and real-world deployment.
 - Important dates preview from `_data/dates.yml`.
 - Workshop format preview: invited talks, peer-reviewed paper presentations, lightning talks/posters/demos, and panel discussion.
@@ -99,12 +101,13 @@ Main content:
 - Tentative submission categories:
   - Regular research papers
   - Short, work-in-progress, and vision papers
-- Submission instructions, including ACM Primary Article Template guidance and tentative LaTeX `acmart` proceedings format.
+- Submission instructions, including ACM Primary Article Template guidance and tentative LaTeX `acmart` review format.
 - Important dates from `_data/dates.yml`.
 - Review process description.
 - Conflict-of-interest and topic-fit wording for reviewer assignment.
-- Publication policy:
-  `Accepted papers are expected to appear as workshop papers in the ACM ICPP 2026 Workshops Proceedings, subject to the final requirements of ICPP 2026 and ACM.`
+- Non-archival publication policy:
+  `AIRS 2026 is a non-archival workshop. Accepted submissions will not be included in formal proceedings.`
+- Registration and presentation policy requiring all workshop presenters to register for ICPP 2026, with no workshop-only registration rate.
 
 Review points:
 
@@ -112,7 +115,7 @@ Review points:
 - Replace submission-link placeholders only when a submission system is confirmed.
 - Confirm final page limits and anonymity settings against official ICPP workshop instructions.
 - Do not add a Program Committee list until explicitly confirmed.
-- Keep the ACM proceedings wording aligned with the official ICPP 2026 workshop publication policy.
+- Keep the non-archival wording aligned with the workshop policy.
 
 ### `program.md` - Program
 
@@ -120,7 +123,7 @@ Purpose: tentative half-day schedule page.
 
 Main content:
 
-- Status notice saying the schedule is tentative, speaker participation / accepted papers are not finalized, and the final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
+- Status notice saying the schedule is tentative, speaker participation / accepted submissions are not finalized, and the final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
 - Half-day structure:
   - Opening Remarks - 10 min
   - Tentative Invited Talk 1 - 30 min
@@ -130,13 +133,13 @@ Main content:
   - Panel Discussion - 45 min
   - Closing Remarks - 10 min
 - Invited speaker placeholder sentence from `_data/speakers.yml`.
-- Accepted papers placeholder.
+- Accepted submissions placeholder.
 
 Review points:
 
 - Check whether the half-day duration feels realistic.
 - Add actual speakers only after confirmation.
-- Add accepted papers only after review decisions.
+- Add accepted submissions only after review decisions.
 
 ### `organizers.md` - Organizers
 
@@ -174,7 +177,7 @@ Current values include confirmed/tentative workshop timing and placeholders for 
 
 - Paper submission deadline
 - Author notification
-- Camera-ready deadline
+- Final version deadline
 - Workshop date: September 28, 2026
 
 Do not add the already-passed workshop proposal deadline.
@@ -240,7 +243,7 @@ Keep these constraints unless the workshop status changes:
 - Do not say speakers are confirmed unless confirmed.
 - Do not list a Program Committee.
 - Do not include the expired proposal deadline as an active date.
-- Keep the ACM proceedings wording subject to the final ICPP 2026 and ACM publication policy.
+- Do not describe accepted submissions as published in formal proceedings unless the workshop policy changes.
 - Do not invent submission system details.
 - Do not invent public website URLs.
 - Do not add organizer photos unless their source is confirmed and official.
