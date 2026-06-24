@@ -9,7 +9,7 @@ description: "Tentative AIRS 2026 half-day program."
   <div class="subpage-hero-inner">
     <p class="kicker">Program</p>
     <h1>Tentative Half-Day Schedule</h1>
-    <p class="subtitle">The final program will be announced after workshop status, speaker participation, and accepted submissions are confirmed.</p>
+    <p class="subtitle">The final program will be announced after speaker participation and accepted submissions are confirmed.</p>
   </div>
 </section>
 

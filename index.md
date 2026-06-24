@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: "AIRS 2026 proposed ICPP workshop on agentic AI systems infrastructure, algorithms, and deployment."
+description: "AIRS 2026 accepted ICPP workshop on agentic AI systems infrastructure, algorithms, and deployment."
 body_class: home-page
 ---
 
@@ -19,7 +19,7 @@ body_class: home-page
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> AIRS 2026 is a proposed half-day workshop for ICPP 2026. AIRS is planned as a non-archival workshop: accepted submissions will be presented for discussion and feedback and will not be published in formal proceedings. Submission instructions, paper deadlines, and invited speakers will be announced after confirmation with the ICPP 2026 workshop chairs.
+  <strong>Status:</strong> AIRS 2026 is an accepted half-day workshop co-located with ICPP 2026. AIRS is planned as a non-archival workshop: accepted submissions will be presented for discussion and feedback and will not be published in formal proceedings. The submission site, final submission instructions, and invited speakers will be announced soon.
 </div>
 
 <section class="content-section">
@@ -36,7 +36,8 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Call for Papers</h2>
-  <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings.</p>
+  <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings. We especially encourage submissions that treat agentic AI as a systems problem, connecting model inference, tools, memory, state, orchestration, scheduling, and deployment constraints.</p>
+  <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a non-archival workshop format.</p>
   <p><a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a></p>
 </section>
 
@@ -52,7 +53,7 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Important Dates</h2>
-  <p>Submission, notification, and final-version deadlines will be posted after confirmation with the ICPP 2026 workshop chairs.</p>
+  <p>All listed times use (GMT +8:00) Beijing, Perth, Singapore, Hong Kong unless otherwise specified.</p>
   <table>
     <tbody>
       {% for item in site.data.dates %}

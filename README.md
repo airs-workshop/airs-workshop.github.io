@@ -4,7 +4,7 @@ This directory contains the Jekyll/GitHub Pages website for AIRS 2026:
 
 **Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment**
 
-The site is intended as a previewable website for a proposed ICPP 2026 half-day workshop. The wording is deliberately conservative: it does not say the workshop has been accepted, does not claim confirmed invited speakers, does not list a Program Committee, and does not invent submission-system details.
+The site is intended as a previewable website for an accepted ICPP 2026 half-day workshop. The wording remains conservative about items that are not finalized: it does not claim confirmed invited speakers, does not list a Program Committee, and does not invent submission-system details.
 
 ## Local Preview
 
@@ -71,7 +71,7 @@ Main content:
 - Full-width hero section with `AIRS 2026`, full workshop title, half-day ICPP 2026 positioning, and small navigation buttons.
 - Location shown as Singapore.
 - Workshop date shown as September 28, 2026.
-- Formal status notice saying AIRS 2026 is a proposed non-archival workshop.
+- Formal status notice saying AIRS 2026 is an accepted non-archival workshop.
 - Overview of why agentic AI deployment creates systems challenges.
 - Core claim that AIRS treats agentic AI as a first-class distributed systems workload.
 - Non-archival workshop section.
@@ -86,11 +86,11 @@ Review points:
 
 - Check whether the status notice is appropriately cautious.
 - Check whether the systems emphasis is strong enough.
-- Keep paper-deadline placeholders until the submission schedule is confirmed.
+- Keep submission-link placeholders until the submission system is confirmed.
 
 ### `call-for-papers.md` - Call for Papers
 
-Purpose: tentative CFP page.
+Purpose: CFP page for the accepted workshop.
 
 Main content:
 
@@ -98,7 +98,7 @@ Main content:
 - Motivation for agentic AI as a systems/infrastructure/deployment topic, including dynamic distributed task-graph workloads.
 - Scope statement emphasizing ICPP relevance.
 - Full topics list from `_data/topics.yml`.
-- Tentative submission categories:
+- Submission categories:
   - Regular research papers
   - Short, work-in-progress, and vision papers
 - Submission instructions, including ACM Primary Article Template guidance for submission/review formatting only and tentative LaTeX `acmart` review format.
@@ -119,7 +119,7 @@ Review points:
 
 ### `program.md` - Program
 
-Purpose: tentative half-day schedule page.
+Purpose: tentative half-day schedule page for the accepted workshop.
 
 Main content:
 
@@ -173,11 +173,11 @@ Review points:
 
 Controls dates shown on the Home and CFP pages.
 
-Current values include confirmed/tentative workshop timing and placeholders for paper deadlines:
+Current values include confirmed workshop timing and placeholders where details remain pending:
 
-- Paper submission deadline
-- Author notification
-- Final version deadline
+- Submission opens: June 25, 2026, 8:00 AM (GMT +8:00) Beijing, Perth, Singapore, Hong Kong
+- Paper submission deadline: July 31, 2026, 23:59 (GMT +8:00) Beijing, Perth, Singapore, Hong Kong
+- Author notification: August 20, 2026
 - Workshop date: September 28, 2026
 
 Do not add the already-passed workshop proposal deadline.
@@ -239,7 +239,6 @@ Only add named speakers after deciding whether they should be listed as potentia
 
 Keep these constraints unless the workshop status changes:
 
-- Do not say AIRS has been accepted.
 - Do not say speakers are confirmed unless confirmed.
 - Do not list a Program Committee.
 - Do not include the expired proposal deadline as an active date.

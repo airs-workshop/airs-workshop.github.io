@@ -14,11 +14,11 @@ description: "Call for papers for AIRS 2026."
 
 <section class="content-section">
   <div class="notice">
-    <strong>Status:</strong> This call is tentative. Final submission instructions and paper deadlines will be announced after confirmation with the ICPP 2026 workshop chairs.
+    <strong>Status:</strong> AIRS 2026 is an accepted half-day workshop co-located with ICPP 2026. The submission site and final submission instructions will be announced soon.
   </div>
 
   <h2>AIRS 2026 Call for Papers</h2>
-  <p>AIRS 2026, the workshop on <strong>Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment</strong>, invites research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI. AIRS 2026 is planned as a non-archival workshop, and accepted submissions will be presented for discussion and feedback rather than published in formal proceedings. The workshop is proposed as a half-day event held in conjunction with <a href="https://icpp2026.github.io/">ICPP 2026</a> in Singapore.</p>
+  <p>AIRS 2026, the workshop on <strong>Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment</strong>, invites research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI. AIRS 2026 is planned as a non-archival workshop, and accepted submissions will be presented for discussion and feedback rather than published in formal proceedings. The workshop will be held as a half-day event in conjunction with <a href="https://icpp2026.github.io/">ICPP 2026</a> in Singapore.</p>
 
   <p>Agentic AI systems increasingly execute long-running workflows, invoke external tools, coordinate across services, and operate under latency, cost, reliability, privacy, and safety constraints. These workloads create new research questions for parallel and distributed computing: how should agents be scheduled, isolated, monitored, scaled, evaluated, and deployed when their behavior depends on model inference, retrieval, memory, tool execution, dynamic control flow, and external side effects?</p>
 
@@ -40,7 +40,7 @@ description: "Call for papers for AIRS 2026."
   <p>Final page limits and formatting requirements will follow the official ICPP 2026 workshop guidelines.</p>
 
   <h2>Submission Instructions</h2>
-  <p>The submission site will be announced after confirmation with the ICPP 2026 workshop chairs. All submissions should be made electronically in PDF format and should follow the final ICPP 2026 workshop formatting instructions.</p>
+  <p>The submission site will be announced soon. All submissions should be made electronically in PDF format and should follow the final ICPP 2026 workshop formatting instructions.</p>
   <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> for submission and review formatting unless the final ICPP 2026 workshop instructions specify otherwise. The use of the ACM template does not imply archival publication. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
 
   <h2>Review Process</h2>
@@ -50,12 +50,13 @@ description: "Call for papers for AIRS 2026."
   <h2>Publication Policy</h2>
   <p>AIRS 2026 is a non-archival workshop. Accepted submissions will not be included in formal proceedings.</p>
   <p>Accepted submissions are intended for presentation, discussion, and community feedback at the workshop. Authors may submit extended or revised versions of their work to archival conferences and journals.</p>
-  <p>Final submission and presentation instructions will be confirmed with the ICPP 2026 workshop chairs.</p>
+  <p>Final submission and presentation instructions will be announced soon.</p>
 
   <h2>Registration and Presentation Policy</h2>
   <p>At least one presenter for each accepted submission must register for ICPP 2026 and present the work at the workshop. All workshop presenters are required to register for the conference; there will be no workshop-only registration rate.</p>
 
   <h2>Important Dates</h2>
+  <p>All listed times use (GMT +8:00) Beijing, Perth, Singapore, Hong Kong unless otherwise specified.</p>
   <table>
     <tbody>
     {% for item in site.data.dates %}
