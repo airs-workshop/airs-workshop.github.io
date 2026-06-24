@@ -19,7 +19,7 @@ body_class: home-page
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> AIRS 2026 is an accepted half-day workshop co-located with ICPP 2026. AIRS is planned as a non-archival workshop: accepted submissions will be presented for discussion and feedback and will not be published in formal proceedings. The submission site, final submission instructions, and invited speakers will be announced soon.
+  <strong>Status:</strong> AIRS 2026 is an accepted half-day, non-archival workshop co-located with ICPP 2026. Accepted submissions will be presented for discussion and feedback and will not be included in formal proceedings. The submission site and invited speakers will be announced soon.
 </div>
 
 <section class="content-section">
@@ -31,13 +31,13 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Non-Archival Workshop</h2>
-  <p>AIRS 2026 is planned as a non-archival workshop. Accepted submissions will be presented at the workshop for discussion and feedback, but will not be published in formal proceedings. This format is intended to encourage early-stage work, work-in-progress results, vision papers, and open discussion.</p>
+  <p>AIRS 2026 is planned as a non-archival workshop. Accepted submissions will be presented at the workshop for discussion and feedback, but will not be included in formal proceedings. This format is intended to encourage early-stage work, work-in-progress results, vision papers, and open discussion.</p>
 </section>
 
 <section class="content-section">
   <h2>Call for Papers</h2>
   <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings. We especially encourage submissions that treat agentic AI as a systems problem, connecting model inference, tools, memory, state, orchestration, scheduling, and deployment constraints.</p>
-  <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a non-archival workshop format.</p>
+  <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a non-archival workshop format and will not be included in formal proceedings.</p>
   <p><a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a></p>
 </section>
 
@@ -78,7 +78,7 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Workshop Format</h2>
-  <p>AIRS is planned as a compact half-day program with invited talks, peer-reviewed paper presentations, short talks or lightning talks when appropriate, and a panel discussion on the systems roadmap for deployable agentic AI.</p>
+  <p>AIRS is planned as a compact half-day program with invited talks, peer-reviewed contributed presentations, short talks or lightning talks when appropriate, and a panel discussion on the systems roadmap for deployable agentic AI.</p>
   <ul>
     <li>Invited talks on agent systems infrastructure, reliability, security, and deployment.</li>
     <li>Peer-reviewed presentations for accepted regular, short, work-in-progress, and vision submissions.</li>

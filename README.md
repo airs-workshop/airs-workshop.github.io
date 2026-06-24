@@ -78,7 +78,7 @@ Main content:
 - Short Call for Papers section linking to the full CFP page.
 - Workshop focus section covering infrastructure and systems, algorithms for agents, and real-world deployment.
 - Important dates preview from `_data/dates.yml`.
-- Workshop format preview: invited talks, peer-reviewed paper presentations, lightning talks/posters/demos, and panel discussion.
+- Workshop format preview: invited talks, peer-reviewed contributed presentations, lightning talks/posters/demos, and panel discussion.
 - Topics preview from `_data/topics.yml`.
 - Organizer list from `_data/organizers.yml`.
 
@@ -105,8 +105,7 @@ Main content:
 - Important dates from `_data/dates.yml`.
 - Review process description.
 - Conflict-of-interest and topic-fit wording for reviewer assignment.
-- Non-archival publication policy:
-  `AIRS 2026 is a non-archival workshop. Accepted submissions will not be included in formal proceedings.`
+- Non-archival publication policy explaining that accepted submissions are presented for discussion and feedback, are not included in formal proceedings, and may be concurrently under review elsewhere when allowed by the other venue's policies.
 - Registration and presentation policy requiring all workshop presenters to register for ICPP 2026, with no workshop-only registration rate.
 
 Review points:
@@ -128,7 +127,7 @@ Main content:
   - Opening Remarks - 10 min
   - Tentative Invited Talk 1 - 30 min
   - Tentative Invited Talk 2 - 30 min
-  - Peer-reviewed Paper Presentations and Lightning Talks - 90 min
+  - Peer-reviewed Contributed Presentations and Lightning Talks - 90 min
   - Coffee Break - 15 min
   - Panel Discussion - 45 min
   - Closing Remarks - 10 min

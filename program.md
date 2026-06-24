@@ -44,9 +44,9 @@ description: "Tentative AIRS 2026 half-day program."
         <td>Reliability, security, and deployment of real-world agentic AI systems.</td>
       </tr>
       <tr>
-        <td>Peer-reviewed Paper Presentations and Lightning Talks</td>
+        <td>Peer-reviewed Contributed Presentations and Lightning Talks</td>
         <td>90 min</td>
-        <td>Regular papers will receive oral presentations. Short, work-in-progress, and vision papers may be presented as short talks, lightning talks, posters, or demos depending on the final acceptance mix.</td>
+        <td>Regular submissions may receive oral presentations. Short, work-in-progress, and vision submissions may be presented as short talks, lightning talks, posters, or demos depending on the final acceptance mix.</td>
       </tr>
       <tr>
         <td>Coffee Break</td>
