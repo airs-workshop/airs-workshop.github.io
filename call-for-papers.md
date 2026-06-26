@@ -14,7 +14,7 @@ description: "Call for papers for AIRS 2026."
 
 <section class="content-section">
   <div class="notice">
-    <strong>Status:</strong> AIRS 2026 is an accepted half-day workshop co-located with ICPP 2026. The submission site will be announced soon. Final formatting and presentation instructions will be updated after confirmation with the ICPP 2026 workshop chairs.
+    <strong>Status:</strong> AIRS 2026 is an accepted half-day workshop co-located with ICPP 2026. Submissions are open via <a href="{{ site.submission_url }}">OpenReview</a>. Final formatting and presentation instructions will be updated after confirmation with the ICPP 2026 workshop chairs.
   </div>
 
   <h2>AIRS 2026 Call for Papers</h2>
@@ -40,8 +40,10 @@ description: "Call for papers for AIRS 2026."
   <p>Final page limits and formatting requirements will follow the official ICPP 2026 workshop guidelines.</p>
 
   <h2>Submission Instructions</h2>
-  <p>The submission site will be announced soon. All submissions should be made electronically in PDF format and should follow the final ICPP 2026 workshop formatting instructions.</p>
+  <p>All submissions should be made electronically in PDF format through <a href="{{ site.submission_url }}">OpenReview</a> and should follow the final ICPP 2026 workshop formatting instructions.</p>
   <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> for submission and review formatting unless the final ICPP 2026 workshop instructions specify otherwise. The use of the ACM template does not imply archival publication. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
+  <p><strong>OpenReview account note:</strong> Authors should make sure every submitting author has an OpenReview profile well before the deadline. New OpenReview profiles created without an institutional email may require moderation and can take up to two weeks to be activated.</p>
+  <p><a class="text-button" href="{{ site.submission_url }}">Submit via OpenReview</a></p>
 
   <h2>Review Process</h2>
   <p>Each submission will be peer reviewed by experts in parallel and distributed computing, ML systems, cloud systems, LLM serving, agentic AI infrastructure, and trustworthy AI. Evaluation criteria will include relevance to ICPP, technical quality, novelty, clarity, soundness, quality of evaluation where applicable, and potential to stimulate discussion at the workshop.</p>

@@ -13,13 +13,14 @@ body_class: home-page
     <p class="hero-meta">{{ site.hero_meta }}</p>
     <p class="action-row hero-actions">
       <a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Call for Papers</a>
+      <a class="text-button" href="{{ site.submission_url }}">Submit via OpenReview</a>
       <a class="text-button secondary" href="{{ '/program/' | relative_url }}">Program</a>
     </p>
   </div>
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> AIRS 2026 is an accepted half-day, non-archival workshop co-located with ICPP 2026. Accepted submissions will be presented for discussion and feedback and will not be included in formal proceedings. The submission site and invited speakers will be announced soon.
+  <strong>Status:</strong> AIRS 2026 is an accepted half-day, non-archival workshop co-located with ICPP 2026. Accepted submissions will be presented for discussion and feedback and will not be included in formal proceedings. Submissions are open via <a href="{{ site.submission_url }}">OpenReview</a>; invited speakers will be announced soon.
 </div>
 
 <section class="content-section">
@@ -38,7 +39,10 @@ body_class: home-page
   <h2>Call for Papers</h2>
   <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings. We especially encourage submissions that treat agentic AI as a systems problem, connecting model inference, tools, memory, state, orchestration, scheduling, and deployment constraints.</p>
   <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a non-archival workshop format and will not be included in formal proceedings.</p>
-  <p><a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a></p>
+  <p class="action-row">
+    <a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a>
+    <a class="text-button secondary" href="{{ site.submission_url }}">Submit via OpenReview</a>
+  </p>
 </section>
 
 <section class="content-section">

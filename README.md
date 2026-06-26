@@ -4,7 +4,7 @@ This directory contains the Jekyll/GitHub Pages website for AIRS 2026:
 
 **Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment**
 
-The site is intended as a previewable website for an accepted ICPP 2026 half-day workshop. The wording remains conservative about items that are not finalized: it does not claim confirmed invited speakers, does not list a Program Committee, and does not invent submission-system details.
+The site is intended as a previewable website for an accepted ICPP 2026 half-day workshop. The wording remains conservative about items that are not finalized: it does not claim confirmed invited speakers, does not list a Program Committee, and uses the confirmed OpenReview submission system.
 
 ## Local Preview
 
@@ -86,7 +86,7 @@ Review points:
 
 - Check whether the status notice is appropriately cautious.
 - Check whether the systems emphasis is strong enough.
-- Keep submission-link placeholders until the submission system is confirmed.
+- Keep the OpenReview submission link visible on the Home and Call for Papers pages.
 
 ### `call-for-papers.md` - Call for Papers
 
@@ -101,7 +101,7 @@ Main content:
 - Submission categories:
   - Regular research papers
   - Short, work-in-progress, and vision papers
-- Submission instructions, including ACM Primary Article Template guidance for submission/review formatting only and tentative LaTeX `acmart` review format.
+- Submission instructions, including the OpenReview submission link, ACM Primary Article Template guidance for submission/review formatting only, tentative LaTeX `acmart` review format, and an OpenReview new-profile moderation warning.
 - Important dates from `_data/dates.yml`.
 - Review process description.
 - Conflict-of-interest and topic-fit wording for reviewer assignment.
@@ -111,7 +111,7 @@ Main content:
 Review points:
 
 - Confirm whether the paper types are acceptable.
-- Replace submission-link placeholders only when a submission system is confirmed.
+- Keep the OpenReview link current.
 - Confirm final page limits and anonymity settings against official ICPP workshop instructions.
 - Do not add a Program Committee list until explicitly confirmed.
 - Keep the non-archival wording aligned with the workshop policy.
@@ -242,7 +242,7 @@ Keep these constraints unless the workshop status changes:
 - Do not list a Program Committee.
 - Do not include the expired proposal deadline as an active date.
 - Do not describe accepted submissions as published in formal proceedings unless the workshop policy changes.
-- Do not invent submission system details.
+- Do not replace OpenReview with EasyChair or another submission system unless the organizers confirm a change.
 - Do not invent public website URLs.
 - Do not add organizer photos unless their source is confirmed and official.
 - Keep the emphasis on systems, infrastructure, and deployment rather than generic AI-agent applications.
