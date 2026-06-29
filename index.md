@@ -38,7 +38,7 @@ body_class: home-page
 <section class="content-section">
   <h2>Call for Papers</h2>
   <p>AIRS 2026 welcomes regular research papers, short papers, work-in-progress papers, and vision papers on systems, infrastructure, algorithms, and deployment for agentic AI in real-world settings. We especially encourage submissions that treat agentic AI as a systems problem, connecting model inference, tools, memory, state, orchestration, scheduling, and deployment constraints.</p>
-  <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a non-archival workshop format and will not be included in formal proceedings.</p>
+  <p>Topics include distributed runtime systems for agents, LLM serving and inference backends, multi-agent workflow execution, secure tool invocation, systems-oriented planning and scheduling, benchmarking, and trustworthy deployment. Accepted submissions will be presented for discussion and feedback in a <strong>non-archival workshop format and will not be included in formal proceedings.</strong></p>
   <p class="action-row">
     <a class="text-button" href="{{ '/call-for-papers/' | relative_url }}">Read the full Call for Papers</a>
     <a class="text-button secondary" href="{{ site.submission_url }}">Submit via OpenReview</a>
