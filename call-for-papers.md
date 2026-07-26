@@ -41,13 +41,14 @@ description: "Call for papers for AIRS 2026."
 
   <h2>Submission Instructions</h2>
   <p>All submissions should be made electronically in PDF format through <a href="{{ site.submission_url }}">OpenReview</a> and should follow the final ICPP 2026 workshop formatting instructions.</p>
-  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> for submission and review formatting unless the final ICPP 2026 workshop instructions specify otherwise. The use of the ACM template does not imply archival publication. For LaTeX submissions, authors may use <code>\documentclass[sigconf,review]{acmart}</code>; the <code>anonymous</code> option should be used only if required by the final anonymity policy. Authors should not modify template margins, font sizes, or spacing.</p>
+  <p>AIRS 2026 uses a <strong>double-anonymous (double-blind) review process</strong>. Submissions must not reveal author identities or affiliations. Authors should omit author names, affiliations, acknowledgments, and other identifying information, and should refer to their own prior work in the third person.</p>
+  <p>Please use the <a href="https://www.acm.org/publications/proceedings-template">ACM Primary Article Template</a> for submission and review formatting unless the final ICPP 2026 workshop instructions specify otherwise. The use of the ACM template does not imply archival publication. For LaTeX submissions, authors should use <code>\documentclass[sigconf,review,anonymous]{acmart}</code>. Authors should not modify template margins, font sizes, or spacing.</p>
   <p><strong>OpenReview account note:</strong> Authors should make sure every submitting author has an OpenReview profile well before the deadline. New OpenReview profiles created without an institutional email may require moderation and can take up to two weeks to be activated.</p>
   <p><a class="text-button" href="{{ site.submission_url }}">Submit via OpenReview</a></p>
 
   <h2>Review Process</h2>
   <p>Each submission will be peer reviewed by experts in parallel and distributed computing, ML systems, cloud systems, LLM serving, agentic AI infrastructure, and trustworthy AI. Evaluation criteria will include relevance to ICPP, technical quality, novelty, clarity, soundness, quality of evaluation where applicable, and potential to stimulate discussion at the workshop.</p>
-  <p>Reviewer assignments will account for conflicts of interest and topic fit, with attention to balancing systems expertise and agentic AI expertise. The anonymity policy will follow the final ICPP 2026 workshop submission instructions.</p>
+  <p>Reviewers will not be given author identities, and authors will not be given reviewer identities during the review process. Reviewer assignments will account for conflicts of interest and topic fit, with attention to balancing systems expertise and agentic AI expertise.</p>
 
   <h2>Publication Policy</h2>
   <p>AIRS 2026 is a non-archival workshop. Accepted submissions will be presented at the workshop for discussion and feedback and will not be included in formal proceedings.</p>

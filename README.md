@@ -101,7 +101,7 @@ Main content:
 - Submission categories:
   - Regular research papers
   - Short, work-in-progress, and vision papers
-- Submission instructions, including the OpenReview submission link, ACM Primary Article Template guidance for submission/review formatting only, tentative LaTeX `acmart` review format, and an OpenReview new-profile moderation warning.
+- Submission instructions, including the OpenReview submission link, double-anonymous review requirements, ACM Primary Article Template guidance for submission/review formatting only, the anonymous LaTeX `acmart` review format, and an OpenReview new-profile moderation warning.
 - Important dates from `_data/dates.yml`.
 - Review process description.
 - Conflict-of-interest and topic-fit wording for reviewer assignment.
@@ -112,7 +112,7 @@ Review points:
 
 - Confirm whether the paper types are acceptable.
 - Keep the OpenReview link current.
-- Confirm final page limits and anonymity settings against official ICPP workshop instructions.
+- Keep the double-anonymous policy, submission instructions, and OpenReview configuration aligned.
 - Do not add a Program Committee list until explicitly confirmed.
 - Keep the non-archival wording aligned with the workshop policy.
 
