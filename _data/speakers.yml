@@ -1,1 +1,18 @@
-message: "Invited speakers will be announced after confirmation."
+- number: 1
+  time: "13:30&ndash;14:00"
+  name: Tianwei Zhang
+  title: Associate Professor
+  affiliation: Nanyang Technological University
+  abbreviation: NTU
+- number: 2
+  time: "14:00&ndash;14:30"
+  name: Wenqi Jiang
+  title: Assistant Professor
+  affiliation: National University of Singapore
+  abbreviation: NUS
+- number: 3
+  time: "14:30&ndash;15:00"
+  name: Yao Lu
+  title: Assistant Professor
+  affiliation: National University of Singapore
+  abbreviation: NUS

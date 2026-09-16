@@ -20,7 +20,7 @@ body_class: home-page
 </section>
 
 <div class="notice">
-  <strong>Status:</strong> AIRS 2026 is an accepted half-day, non-archival workshop co-located with ICPP 2026. Accepted submissions will be presented for discussion and feedback and will not be included in formal proceedings. Submissions are open via <a href="{{ site.submission_url }}">OpenReview</a>; invited speakers will be announced soon.
+  <strong>Status:</strong> AIRS 2026 is an accepted half-day, non-archival workshop co-located with ICPP 2026. The <a href="{{ '/program/' | relative_url }}">workshop program</a>, keynote speakers, and accepted paper presentations are now available.
 </div>
 
 <section class="content-section">
@@ -82,12 +82,13 @@ body_class: home-page
 
 <section class="content-section">
   <h2>Workshop Format</h2>
-  <p>AIRS is planned as a compact half-day program with invited talks, peer-reviewed contributed presentations, short talks or lightning talks when appropriate, and a panel discussion on the systems roadmap for deployable agentic AI.</p>
+  <p>AIRS is a compact half-day program featuring three keynote talks, three accepted paper presentations, a coffee break, and closing remarks.</p>
   <ul>
-    <li>Invited talks on agent systems infrastructure, reliability, security, and deployment.</li>
-    <li>Peer-reviewed presentations for accepted regular, short, work-in-progress, and vision submissions.</li>
-    <li>A moderated panel discussion on open systems problems and evaluation gaps.</li>
+    <li>Keynotes by Tianwei Zhang, Wenqi Jiang, and Yao Lu.</li>
+    <li>Three accepted paper presentations, with 25 minutes allocated to each presentation.</li>
+    <li>The program runs from 13:30 to 16:50 on September 28, 2026.</li>
   </ul>
+  <p><a class="text-button" href="{{ '/program/' | relative_url }}">View the workshop program</a></p>
 </section>
 
 <section class="content-section">

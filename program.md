@@ -1,78 +1,63 @@
 ---
 layout: default
 title: Program
-description: "Tentative AIRS 2026 half-day program."
+description: "AIRS 2026 half-day workshop program."
 ---
 
 <section class="subpage-hero" aria-label="Program">
   <img src="{{ '/imgs/fenpi.png' | relative_url }}" alt="Singapore skyline for AIRS 2026">
   <div class="subpage-hero-inner">
-    <p class="kicker">Program</p>
-    <h1>Tentative Half-Day Schedule</h1>
-    <p class="subtitle">The final program will be announced after speaker participation and accepted submissions are confirmed.</p>
+    <p class="kicker">AIRS 2026 Program</p>
+    <h1>Workshop Program</h1>
+    <p class="subtitle">Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment</p>
+    <p class="meta-line">September 28, 2026 &middot; Singapore</p>
   </div>
 </section>
 
-<div class="notice">
-  <strong>Status:</strong> This schedule is tentative; speaker participation and accepted submissions have not been finalized. The final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
-</div>
-
 <section class="content-section">
-  <h2>Workshop Structure</h2>
+  <h2>Schedule</h2>
   <table>
     <thead>
       <tr>
-        <th>Session</th>
-        <th>Duration</th>
-        <th>Description</th>
+        <th>Time</th>
+        <th>Program</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Opening Remarks</td>
-        <td>10 min</td>
-        <td>Workshop goals, scope, and overview of the ICPP systems perspective on agentic AI.</td>
+        <th scope="row">13:30&ndash;15:00</th>
+        <td><strong>Keynote Session</strong></td>
+      </tr>
+      {% for speaker in site.data.speakers %}
+      <tr>
+        <th scope="row">{{ speaker.time }}</th>
+        <td><strong>Keynote {{ speaker.number }}:</strong> {{ speaker.name }}, {{ speaker.title }}, {{ speaker.affiliation }} ({{ speaker.abbreviation }})</td>
+      </tr>
+      {% endfor %}
+      <tr>
+        <th scope="row">15:00&ndash;15:30</th>
+        <td><strong>Coffee Break</strong></td>
       </tr>
       <tr>
-        <td>Tentative Invited Talk 1</td>
-        <td>30 min</td>
-        <td>Systems infrastructure for scalable agent execution.</td>
+        <th scope="row">15:30&ndash;16:45</th>
+        <td><strong>Accepted Paper Presentations</strong></td>
       </tr>
       <tr>
-        <td>Tentative Invited Talk 2</td>
-        <td>30 min</td>
-        <td>Reliability, security, and deployment of real-world agentic AI systems.</td>
+        <th scope="row">15:30&ndash;15:55</th>
+        <td>How Far Are We From True Auto-Research?</td>
       </tr>
       <tr>
-        <td>Peer-reviewed Contributed Presentations and Lightning Talks</td>
-        <td>90 min</td>
-        <td>Regular submissions may receive oral presentations. Short, work-in-progress, and vision submissions may be presented as short talks, lightning talks, posters, or demos depending on the final acceptance mix.</td>
+        <th scope="row">15:55&ndash;16:20</th>
+        <td>Trace: Optimizing Long-Context Agents via Task-Adaptive Information Extraction</td>
       </tr>
       <tr>
-        <td>Coffee Break</td>
-        <td>15 min</td>
-        <td>Informal discussion and networking.</td>
+        <th scope="row">16:20&ndash;16:45</th>
+        <td>From Rigid to Dynamic: Entropy-Guided Adaptive Inference for Long-Context LLMs</td>
       </tr>
       <tr>
-        <td>Panel Discussion</td>
-        <td>45 min</td>
-        <td>A moderated discussion on the systems roadmap for deployable agentic AI.</td>
-      </tr>
-      <tr>
-        <td>Closing Remarks</td>
-        <td>10 min</td>
-        <td>Summary of takeaways, open problems, and follow-up opportunities.</td>
+        <th scope="row">16:45&ndash;16:50</th>
+        <td><strong>Closing Remarks</strong></td>
       </tr>
     </tbody>
   </table>
-</section>
-
-<section class="content-section">
-  <h2>Invited Speakers</h2>
-  <p>{{ site.data.speakers.message }}</p>
-</section>
-
-<section class="content-section">
-  <h2>Accepted Submissions</h2>
-  <p>Accepted submissions will be listed after the review process is complete.</p>
 </section>

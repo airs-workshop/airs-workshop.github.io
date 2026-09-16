@@ -4,7 +4,7 @@ This directory contains the Jekyll/GitHub Pages website for AIRS 2026:
 
 **Agentic AI in Real-World Systems: Infrastructure, Algorithms, and Deployment**
 
-The site is intended as a previewable website for an accepted ICPP 2026 half-day workshop. The wording remains conservative about items that are not finalized: it does not claim confirmed invited speakers, does not list a Program Committee, and uses the confirmed OpenReview submission system.
+The site is intended as a previewable website for an accepted ICPP 2026 half-day workshop. It lists the confirmed keynote speakers and accepted paper presentation schedule, does not list a Program Committee, and uses the confirmed OpenReview submission system.
 
 ## Local Preview
 
@@ -58,7 +58,7 @@ The website structure and wording were based on these references:
 - AI4Dev ICPP 2025 workshop website: example of a compact academic workshop site with aims/scope, CFP, important dates, agenda, and committee sections.
   https://ornl.github.io/events/AI4Dev-ICPP-2025/
 
-The visual design is not a direct clone of any one site. It now follows a restrained academic workshop pattern: top navigation, compact title area, status note, single-column sections, ordinary lists, simple tables, submission guidance, tentative program, and organizers.
+The visual design is not a direct clone of any one site. It now follows a restrained academic workshop pattern: top navigation, compact title area, status note, single-column sections, ordinary lists, simple tables, submission guidance, workshop program, and organizers.
 
 ## Page-by-Page Review Guide
 
@@ -71,14 +71,14 @@ Main content:
 - Full-width hero section with `AIRS 2026`, full workshop title, half-day ICPP 2026 positioning, and small navigation buttons.
 - Location shown as Singapore.
 - Workshop date shown as September 28, 2026.
-- Formal status notice saying AIRS 2026 is an accepted non-archival workshop.
+- Formal status notice saying AIRS 2026 is an accepted non-archival workshop with an available program.
 - Overview of why agentic AI deployment creates systems challenges.
 - Core claim that AIRS treats agentic AI as a first-class distributed systems workload.
 - Non-archival workshop section.
 - Short Call for Papers section linking to the full CFP page.
 - Workshop focus section covering infrastructure and systems, algorithms for agents, and real-world deployment.
 - Important dates preview from `_data/dates.yml`.
-- Workshop format preview: invited talks, peer-reviewed contributed presentations, lightning talks/posters/demos, and panel discussion.
+- Workshop format preview: three keynotes, three accepted paper presentations, a coffee break, and closing remarks.
 - Topics preview from `_data/topics.yml`.
 - Organizer list from `_data/organizers.yml`.
 
@@ -118,27 +118,20 @@ Review points:
 
 ### `program.md` - Program
 
-Purpose: tentative half-day schedule page for the accepted workshop.
+Purpose: confirmed half-day schedule page for the accepted workshop.
 
 Main content:
 
-- Status notice saying the schedule is tentative, speaker participation / accepted submissions are not finalized, and the final schedule is subject to ICPP 2026 workshop scheduling and room arrangements.
-- Half-day structure:
-  - Opening Remarks - 10 min
-  - Tentative Invited Talk 1 - 30 min
-  - Tentative Invited Talk 2 - 30 min
-  - Peer-reviewed Contributed Presentations and Lightning Talks - 90 min
-  - Coffee Break - 15 min
-  - Panel Discussion - 45 min
-  - Closing Remarks - 10 min
-- Invited speaker placeholder sentence from `_data/speakers.yml`.
-- Accepted submissions placeholder.
+- Workshop title and event date.
+- Three confirmed 30-minute keynote presentations, with speaker details from `_data/speakers.yml`.
+- A 30-minute coffee break.
+- Three accepted paper presentations of 25 minutes each.
+- Closing Remarks - 5 min.
 
 Review points:
 
-- Check whether the half-day duration feels realistic.
-- Add actual speakers only after confirmation.
-- Add accepted submissions only after review decisions.
+- Keep speaker details aligned with `_data/speakers.yml`.
+- Keep presentation titles and times aligned with the confirmed program.
 
 ### `organizers.md` - Organizers
 
@@ -215,15 +208,9 @@ Photo fields are currently unused. Keep them empty unless the design intentional
 
 ### `_data/speakers.yml`
 
-Controls the invited-speaker placeholder on Program.
+Controls the confirmed keynote speaker rows on Program.
 
-Current content is a conservative placeholder:
-
-```yaml
-message: "Invited speakers will be announced after confirmation."
-```
-
-Only add named speakers after deciding whether they should be listed as potential or confirmed, and update the Program page rendering accordingly if needed.
+Each entry contains the keynote number, presentation time, speaker name, academic title, institution, and institution abbreviation. Keep these fields synchronized with the confirmed program.
 
 ## Layout and Styling Files
 
