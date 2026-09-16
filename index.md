@@ -81,14 +81,9 @@ body_class: home-page
 </section>
 
 <section class="content-section">
-  <h2>Workshop Format</h2>
-  <p>AIRS is a compact half-day program featuring three keynote talks, three accepted paper presentations, a coffee break, and closing remarks.</p>
-  <ul>
-    <li>Keynotes by Tianwei Zhang, Wenqi Jiang, and Yao Lu.</li>
-    <li>Three accepted paper presentations, with 25 minutes allocated to each presentation.</li>
-    <li>The program runs from 13:30 to 16:50 on September 28, 2026.</li>
-  </ul>
-  <p><a class="text-button" href="{{ '/program/' | relative_url }}">View the workshop program</a></p>
+  <h2>Workshop Program</h2>
+  <p>September 28, 2026 &middot; Singapore</p>
+  {% include program-schedule.html %}
 </section>
 
 <section class="content-section">

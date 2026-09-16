@@ -78,7 +78,7 @@ Main content:
 - Short Call for Papers section linking to the full CFP page.
 - Workshop focus section covering infrastructure and systems, algorithms for agents, and real-world deployment.
 - Important dates preview from `_data/dates.yml`.
-- Workshop format preview: three keynotes, three accepted paper presentations, a coffee break, and closing remarks.
+- Full workshop program table shared with the standalone Program page through `_includes/program-schedule.html`.
 - Topics preview from `_data/topics.yml`.
 - Organizer list from `_data/organizers.yml`.
 
@@ -123,6 +123,7 @@ Purpose: confirmed half-day schedule page for the accepted workshop.
 Main content:
 
 - Workshop title and event date.
+- Full schedule from `_includes/program-schedule.html`.
 - Three confirmed 30-minute keynote presentations, with speaker details from `_data/speakers.yml`.
 - A 30-minute coffee break.
 - Three accepted paper presentations of 25 minutes each.
@@ -217,6 +218,7 @@ Each entry contains the keynote number, presentation time, speaker name, academi
 - `_layouts/default.html`: base HTML shell.
 - `_includes/header.html`: site header and brand.
 - `_includes/nav.html`: top navigation.
+- `_includes/program-schedule.html`: shared schedule table rendered on Home and Program.
 - `_includes/footer.html`: footer with title, venue, and status note.
 - `assets/css/custom.css`: all custom styling.
 - `assets/img/airs-systems-stack.png`: retained local systems-focus visual asset, not currently used by the restrained academic layout.
