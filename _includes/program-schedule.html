@@ -13,7 +13,10 @@
     {% for speaker in site.data.speakers %}
     <tr>
       <th scope="row">{{ speaker.time }}</th>
-      <td><strong>Keynote {{ speaker.number }}:</strong> {{ speaker.name }}, {{ speaker.title }}, {{ speaker.affiliation }} ({{ speaker.abbreviation }})</td>
+      <td>
+        <strong>Keynote {{ speaker.number }}:</strong> {{ speaker.name }}, {{ speaker.title }}, {{ speaker.affiliation }} ({{ speaker.abbreviation }})
+        {% if speaker.talk_title %}<br><strong>Talk:</strong> {{ speaker.talk_title }}{% endif %}
+      </td>
     </tr>
     {% endfor %}
     <tr>
@@ -26,15 +29,15 @@
     </tr>
     <tr>
       <th scope="row">15:30&ndash;15:55</th>
-      <td>How Far Are We From True Auto-Research?</td>
+      <td>How Far Are We From True Auto-Research?<br><strong>Presenter:</strong> Zhengxin Zhang / Ning Wang, Cornell University</td>
     </tr>
     <tr>
       <th scope="row">15:55&ndash;16:20</th>
-      <td>Trace: Optimizing Long-Context Agents via Task-Adaptive Information Extraction</td>
+      <td>Trace: Optimizing Long-Context Agents via Task-Adaptive Information Extraction<br><strong>Presenter:</strong> Enhao Huang, Zhejiang University</td>
     </tr>
     <tr>
       <th scope="row">16:20&ndash;16:45</th>
-      <td>From Rigid to Dynamic: Entropy-Guided Adaptive Inference for Long-Context LLMs</td>
+      <td>From Rigid to Dynamic: Entropy-Guided Adaptive Inference for Long-Context LLMs<br><strong>Presenter:</strong> Mingtao Zhang, The Hong Kong Polytechnic University</td>
     </tr>
     <tr>
       <th scope="row">16:45&ndash;16:50</th>

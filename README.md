@@ -124,9 +124,9 @@ Main content:
 
 - Workshop title and event date.
 - Full schedule from `_includes/program-schedule.html`.
-- Three confirmed 30-minute keynote presentations, with speaker details from `_data/speakers.yml`.
+- Three confirmed 30-minute keynote presentations, with speaker details and available talk titles from `_data/speakers.yml`.
 - A 30-minute coffee break.
-- Three accepted paper presentations of 25 minutes each.
+- Three accepted paper presentations of 25 minutes each, including presenter names and affiliations.
 - Closing Remarks - 5 min.
 
 Review points:
@@ -211,7 +211,7 @@ Photo fields are currently unused. Keep them empty unless the design intentional
 
 Controls the confirmed keynote speaker rows on Program.
 
-Each entry contains the keynote number, presentation time, speaker name, academic title, institution, and institution abbreviation. Keep these fields synchronized with the confirmed program.
+Each entry contains the keynote number, presentation time, speaker name, academic title, institution, and institution abbreviation. The optional `talk_title` field adds a talk title when provided. Keep these fields synchronized with the confirmed program.
 
 ## Layout and Styling Files
 
